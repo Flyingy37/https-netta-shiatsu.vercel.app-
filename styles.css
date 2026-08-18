@@ -63,3 +63,9 @@ footer{font-size:13px;line-height:1.5}
 .treatments-section .section-heading .eyebrow{color:var(--olive-dark);font-weight:600}
 .treatments-section .section-heading h2{color:var(--ink);font-weight:500}
 .treatments-section .section-heading>p:last-child{color:#575146}
+
+/* Use a subtle Chinese-medicine marker instead of generic list bullets. */
+.price-card ul{list-style:none;padding-right:0}
+.price-card li{position:relative;padding-right:28px}
+.price-card li:before{content:"☯";position:absolute;right:0;top:.02em;color:var(--rose-dark);font-size:16px;line-height:1.65}
+.price-card.featured li:before{color:var(--rose-soft)}
