@@ -57,3 +57,9 @@ footer{font-size:13px;line-height:1.5}
 .recommended{background:var(--rose)}
 .training-heading .eyebrow{background:var(--rose-soft)}
 .classic-treatment-photo{object-position:center 74%}
+
+/* Improve the legibility of section markers and the treatments introduction. */
+.training-number{color:#e3d9bb;font-size:14px;font-weight:600;letter-spacing:.1em}
+.treatments-section .section-heading .eyebrow{color:var(--olive-dark);font-weight:600}
+.treatments-section .section-heading h2{color:var(--ink);font-weight:500}
+.treatments-section .section-heading>p:last-child{color:#575146}
